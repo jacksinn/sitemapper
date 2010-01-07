@@ -1,4 +1,11 @@
 <?php
+function insertSite(){
+	$queryString = "INSERT into pages";
+	$queryString .= "VALUES()";
+	
+	$result = mysql_query($queryString);
+	
+}
 function createTask($startDate, $description){
 	$queryString = "INSERT INTO tasks ";
 	//tid, start, updated (today)
